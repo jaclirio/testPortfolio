@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&);
+@import url(https://fonts.googleapis.com/css2?family=Metal+Mania&);
+@font-face {
+    font-family: "Oswald";
+    src: url("font/Oswald.ttf")format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    font-family:Raleway;
+    color: #777;
+}
+
+.header{
+    background-image: url("img/headerbg.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .2);
+    background-blend-mode: multiply;
+    padding-bottom: 10px;
+}
+
+nav ul, body{
+    margin:0;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.title{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Oswald";
+    font-weight: normal;
+    color: white;
+}
+
+.title-large{
+    font-size: 8em;
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.myPic{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer{
+    background-color: #56ccf2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container a,p{
+    flex-grow: 1;
+    text-align: right;
+}
+
